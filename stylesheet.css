@@ -1,15 +1,33 @@
-/*img {
-  width: 100%;
-  height: auto;
-} */
-
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
 
 body {
-	/* font: 18px/25px "comic sans ms", sans-serif; */
 	font-family: "helvetica", sans-serif;
-	font-size: 18px;
-	line-height: 25px;
-  color: grey}
- img {
+	font-size: 16px;
+	line-height: 24px;
+  color: grey;
+}
+
+img {
  	width: 100%;
  	height: auto;
+}
+
+@media (min-width: 900px) {
+	.container {
+		margiin-top: 100px;
+	}
+	#name {
+		float:left;
+		width:30%;
+		padding-left:30px;
+	}
+	#photography {
+		float: left;
+		width:66%;
+	}
+}
