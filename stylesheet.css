@@ -9,7 +9,7 @@ body {
 	font-family: "helvetica", sans-serif;
 	font-size: 16px;
 	line-height: 24px;
-  color:light grey;
+  color:grey;
   background-image:url("img/Tn_DOF_0018_CYMK.jpg");
   background-repeat:no-repeat;
   background-size: 100%;
@@ -19,11 +19,13 @@ body {
 ul { list-style-type: none;}
 
 div #name {color:white;
+}
 
 .navigation { display:block;
 }
 
-.navigation li { padding-top: 15px;}
+.navigation li { padding-top: 15px;
+}
 
 
 a { color:#E7A8FA;
