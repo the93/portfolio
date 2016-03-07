@@ -9,27 +9,47 @@ body {
 	font-family: "helvetica", sans-serif;
 	font-size: 16px;
 	line-height: 24px;
-  color: grey;
-	background-image:url("Tn_DOF_0018_CYMK.jpg"); 
+  color:light grey;
+  background-image:url("img/Tn_DOF_0018_CYMK.jpg");
+  background-repeat:no-repeat;
+  background-size: 100%;
+
 }
 
+ul { list-style-type: none;}
+
+div #name {color:white;
+
+.navigation { display:block;
+}
+
+.navigation li { padding-top: 15px;}
+
+
+a { color:#E7A8FA;
+    font-size:20px;
+	 padding:10px;
+}
+
+a:hover, a:focus, a:active { text-decoration: none;
+          color:lightgray;
+}
 
 img {
  	width: 60%;
  	height: auto;
+	padding: 10px;
 }
+
+
 
 @media (min-width: 900px) {
 	.container {
-		margiin-top: 100px;
+		margin-top: 60px;
 	}
 	#name {
 		float:left;
 		width:30%;
-		padding-left:30px;
-	}
-	#photography {
-		float: right;
-		width:100%;
+		padding-left:20px;
 	}
 }
