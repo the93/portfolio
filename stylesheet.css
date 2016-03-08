@@ -9,11 +9,13 @@ body {
 	font-family: "helvetica", sans-serif;
 	font-size: 16px;
 	line-height: 24px;
-  color:grey;
+  color:lightgrey;
   background-image:url("img/Tn_DOF_0018_CYMK.jpg");
   background-repeat:no-repeat;
   background-size: 100%;
-
+	background-color:#777;
+	background-blend-mode:multiply;
+  transition: 1s all ease-out;
 }
 
 ul { list-style-type: none;}
@@ -21,26 +23,145 @@ ul { list-style-type: none;}
 div #name {color:white;
 }
 
-.navigation { display:block;
+div .navigation {
+	float:left;
 }
 
-.navigation li { padding-top: 15px;
+.navigation ul { display:block
+
+    list-style-type: none;
+    margin-top: 40px;
+		margin-left:40px;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: #F29B12;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+
+}
+
+.navigation li { margin-bottom: 20px;
+
 }
 
 
-a { color:#E7A8FA;
-    font-size:20px;
-	 padding:10px;
+a {
+    font-size:18px;
 }
 
 a:hover, a:focus, a:active { text-decoration: none;
           color:lightgray;
 }
 
-img {
+#name img {
  	width: 60%;
  	height: auto;
-	padding: 10px;
+	padding: 30px 40px 30px 0px;
+}
+
+img {
+	width:40%;
+}
+
+figure img {
+	border: 10px solid gray;
+	padding:8px;
+	margin-left:15%;
+	margin-top:-20%;
+}
+
+
+/*bottom links*/
+
+.side {float:right;
+	width:25%;
+}
+
+.side li {
+	margin: 0px;
+}
+
+
+/* photography page */
+
+
+div.img {
+    margin: 5px;
+    border: 1px solid #777
+	  display:inline;
+		float:left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #ccc;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 6px;
+    text-align: center;
+}
+
+#photo {
+	margin: -25% 0 0 20%;
+}
+
+/* statement*/
+
+h2 {margin-left:37%;
+	margin-top:-25%;
+}
+
+span p {
+	text-indent: 50px;
+	width:60%;
+  background:rgb(128, 128, 128);
+	background:rgba(128, 128, 128, 0.5);
+	padding:3%;
+	margin: 0 auto;
+	margin-top:2%;
+}
+
+/* GD */
+
+gd div.img {
+    margin: 5px;
+    border: 1px solid #777
+	  display:inline;
+		float:left;
+    width: 180px;
+}
+
+gd div.img:hover {
+    border: 1px solid #ccc;
+}
+
+gd div.img img {
+    width: 100%;
+    height: auto;
+}
+
+gd div.desc {
+    padding: 6px;
+    text-align: center;
+}
+
+#gd {
+	margin: -25% 0 0 20%;
+}
+
+/* contact info */
+
+form {
+	margin: 3% 0 0 30%;
 }
 
 
@@ -50,7 +171,6 @@ img {
 		margin-top: 60px;
 	}
 	#name {
-		float:left;
 		width:30%;
 		padding-left:20px;
 	}
