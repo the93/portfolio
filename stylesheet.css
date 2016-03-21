@@ -25,7 +25,9 @@ div #name {color:white;
 
 div .navigation {
 	float:left;
+	margin-bottom: 10%;
 }
+
 
 .navigation ul { display:block
 
@@ -43,7 +45,7 @@ li a {
 
 }
 
-.navigation li { margin-bottom: 20px;
+.navigation li { margin-bottom: 10px;
 
 }
 
